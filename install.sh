@@ -4,6 +4,7 @@ sudo apt-get install git
 sudo apt-get install gcc
 sudo apt-get install g++
 sudo apt-get install doxygen doxygen-latex
+sudo apt-get install tmux screen
 I=`dpkg -s sublime-text | grep "Status" ` #проверяем состояние пакета (dpkg) и ищем в выводе его статус (grep)
 if [ -n "$I" ] #проверяем что нашли строку со статусом (что строка не пуста)
 then
